@@ -84,13 +84,18 @@
                     <img class="about_us_draw second" src="./assets/images/container.png">
                 </div>
                 <div class="button about_us">
-                    <div class="">
-                    <div class="header-content">
+                    <div class="header_content">
+                    <div class="header-content_head">
                         <div class="box about"></div>
-                        <h1 class="button_text upper">О КОМПАНИИ</h1>
+                        <h1 class="button_text_upper">О КОМПАНИИ</h1>
                     </div>
                     </div>
-                    <h1 class="button_text">ОТКРОЙТЕ ДЛЯ СЕБЯ ВИДЫ <br> ДОСТАВКИ</h1>
+                    <h1 class="button_text_head">мы превращаем смелые идеи в пространство. Наша команда сочетает творческий подход с опытом в проектировании структур, которые вдохновляют и выдерживают испытание временем</h1>
+                    <div class="header_content">
+                        <div class="header-content_head">
+                            <h1 class="button_text_upper">Узнать больше</h1>
+                        </div>
+                        </div>
                 </div>
             </div>
         </div>   
@@ -100,6 +105,7 @@
             <div class="description">
                 <h2 class="section-title">Наши партнеры</h2>
             </div>
+            <div class="team_container">
 			<ul class="company-items list-reset">
                 <li class="company-item flex">
                     <img src="./assets/icons/geo-r.svg" class="company-icon">
@@ -133,6 +139,7 @@
                 </li>
             </ul>
             <h1 class="team_section">Мы гордимся тем, нам доверяют клиенты, которые бросают нам вызов в инновациях и достижениях.</h1>
+            </div>
 		</div>
 	</section>
     <section id="services" class="service__section">
@@ -164,15 +171,46 @@
         </div>
     </section>
     <section id="result" class="result_section">
+        <div class="result__container">
         <div class="result_container">
-            <h1 class="result_header"> Key points that define our success</h1>
+            <div class="result_box">
+                <div class="result_box_text">
+                    <h1 class="result_header"> Key points that define our success</h1>
+                </div>
+                <div class="result_small"></div>
+                <div class="line"></div>
+            </div>
+            <div class="result_box">
+                <div class="result_box_text">
+                    <h2 class="result_big">50+</h2>
+                </div>
+                <div class="result_small">
+                    <h3 class="result_small_text">проектов завершено</h3>
+                    <h3 class="result_small_text">Successfully completed over 50+ projects across residential, commercial, and public sectors, showcasing our diverse expertise.</h3>
+                </div>
             <div class="line"></div>
-            <h2 class="result_big">50+</h2>
+            </div>
+            <div class="result_box">
+                <div class="result_box_text">
+                    <h2 class="result_big">147</h2>
+                </div>
+            <div class="result_small">
+                <h3 class="result_small_text">профессионализм сотрудников</h3>
+                <h3 class="result_small_text">Successfully completed over 50+ projects across residential, commercial, and public sectors, showcasing our diverse expertise.</h3>
+            </div>
             <div class="line"></div>
-            <h2 class="result_big">147</h2>
+            </div>
+            <div class="result_box">
+                <div class="result_box_text">
+                    <h2 class="result_big">$1.2B</h2>
+                </div>
+            <div class="result_small">
+                <h3 class="result_small_text">ценность груза</h3>
+                <h3 class="result_small_text">Successfully completed over 50+ projects across residential, commercial, and public sectors, showcasing our diverse expertise.</h3>
+            </div>
             <div class="line"></div>
-            <h2 class="result_big">$1.2B</h2>
-
+            </div>
+        </div>
         </div>
     </section>
     <section class="about__container">
@@ -361,70 +399,44 @@
                 group.addTo(map);
             });
         </script>
-        				<div class="geo-title">
-                            <div class="container__geo">
-                                <div class="title">
-                                    <h2><span>География</span> перевозок</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="geo-direction">
-                            <div class="container">
-                                <ul class="geo-items">
-                                    <li class="geo_li">Казахстан</li>
-                                    <li class="geo_li">Кыргызстан</li>
-                                    <li class="geo_li">Туркменистан</li>
-                                    <li class="geo_li">Узбекистан</li>
-                                    <li class="geo_li">Россия</li>
-                                    <li class="geo_li">Украина</li>
-                                    <li class="geo_li">Белорусия</li>
-                                    <li class="geo_li">Армения</li>
-                                    <li class="geo_li">Польша</li>
-                                    <li class="geo_li">Германия</li>
-                                    <li class="geo_li">Чехия</li>
-                                    <li class="geo_li">Румыния</li>
-                                    <li class="geo_li">Турция</li>
-                                    <li class="geo_li">Иран</li>
-                                    <li class="geo_li">Китай</li>
-                                    <li class="geo_li">Япония</li>
-                                    <li class="geo_li">Корея</li>
-                                    <li class="geo_li">Тайланд</li>
-                                    <li class="geo_li">Малазия</li>
-                                    <li class="geo_li">Вьетнам</li>
-                                </ul>
-                            </div>
-                        </div>
+        <div class="geo-title">
+            <div class="container__geo">
+                <div class="title">
+                    <h2><span>География</span> перевозок</h2>
+                </div>
+            </div>
+        </div>
     </section>
     </main>
     <footer class="footer">
-        <div class="container">
-            <div class="flex wrap jc-sb">
-                <div class="col">
-                    <div class="top">
-                        <div class="logo">
-                            <img src="assets/images/logo-wt.svg" alt="" />
-                        </div>
-                        <div class="address">РК,&nbspг.&nbspАлматы<br>ул.&nbspЖандосова,&nbsp98<br>БЦ&nbspНавои<br>
-                            3&nbspэтаж,&nbsp309&nbspофис</div>
-                        <div class="address">Транспортно-логистическая<br>
-                            компания<br>
-                            ТОО “TWO&nbspLINE&nbspSERVICES”<br>
-                            Все&nbspправа&nbspзащищены</div>
+        <div class="footer_container">
+            <div class="footer_content">
+                <div class="footer__content">
+                    <div class="footer_columns">
+                        <ul class="menu">
+                            <li class="footer_element"><a  >Главная</a></li>
+                            <li class="footer_element"><a href="#about_us" >Рассчитать стоимость</a></li>
+                        </ul>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="top">
-                        <div class="flex column jc-end">
-                            <a href="tel:+77760334445" title="" class="tel">+7&nbsp776&nbsp033&nbsp4445</a>
-                            <a href="mailto:info@twoline.kz" title="" class="email">info@twoline.kz</a>
-                        </div>
-                        <ul>
-                            <li><a href="index.html" title="">Главная</a></li>
-                            <li><a href="about.html" title="">О компании</a></li>
-                            <li><a href="index.html#services" title="">Услуги</a></li>
-                            <li><a href="contacts.html" title="">Контакты</a></li>
-                            <li><a href="dowload.html" title="">Скачать</a></li>
-    
+                    <div class="footer_columns">
+                        <ul class="menu">
+                            <li class="footer_element"><a href="#about_us" >о компании</a></li>
+                            <li class="footer_element"><a href="#partners" >услуги</a></li>
+                            <li class="footer_element"><a href="#partners" >связаться</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_columns">
+                        <ul class="menu">
+                            <li class="footer_element"><a  >ЖД</a></li>
+                            <li class="footer_element"><a href="#about_us" >Авто</a></li>
+                            <li class="footer_element"><a href="#partners" >Морские перевозки</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_columns">
+                        <ul class="menu">
+                            <li class="footer_element"><a>+7 700 000-0000</a></li>
+                            <li class="footer_element"><a href="#about_us"> г.Алматы Новаи 124г</a></li>
+                            <li class="footer_element"><a href="#partners"> john.anderson@gmail.com</a></li>
                         </ul>
                     </div>
                 </div>
